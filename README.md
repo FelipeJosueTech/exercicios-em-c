@@ -1,7 +1,7 @@
 # Exercícios de Lógica de Programação em C++
 
 ## Descrição
-Resolução em C/C++ dos exercícios de Lógica de Programação e Algoritmos da [lista de exercícios da Wiki da Python Brasil](https://wiki.python.org.br/ListaDeExercicios) e um fork da lista disponibilizada no [desse repositório aqui do @isquicha](https://github.com/isquicha/exercicios-logica-c).
+Resolução em C/C++ dos exercícios de Lógica de Programação e Algoritmos da [lista de exercícios da Wiki da Python Brasil](https://wiki.python.org.br/ListaDeExercicios) e um fork da lista disponibilizada no [repositório do @isquicha](https://github.com/isquicha/exercicios-logica-c).
 
 ## Conteúdo
 1. [Exercícios de Lógica de Programação em C++](#exercícios-de-lógica-de-programação-em-c)
