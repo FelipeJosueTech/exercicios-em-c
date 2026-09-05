@@ -1,35 +1,26 @@
-/*
-Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada.
-
-Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00.
-
-Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
+/* Enunciado:
+	faca um programa para uma loja de tintas. Peca o tamanho da area a ser
+	pintada em metros quadrados. A cobertura e de 1 litro para cada 3 metros
+	quadrados; a tinta e vendida em latas de 18 litros por R$ 80,00. Informe a
+	quantidade de latas e o preco total.
 */
 
-float calcula_quantidade_tinta(float area) {
-	return area / 3;
-}
-
-calcula_quantidade_lata(float quantidade_tinta) {
-	return 
-}
-
-float calcula_valor(float quantidade_lata) {
-	
-}
-
 #include <stdio.h>
+#include <math.h>
 
 int main() {
-	float area_pintada;
-	int quantidade_lata = 1;
-	float quantidade_tinta;
-	
-	printf("Insira o tamanho em metros quadrados da area a ser pintada: ");
-	scanf("%f", &area_pintada);
-	quantidade = calcula_quantidade(area_pintada);
-	
-	printf("A quantidade de tinta necessária é: %.2f", quantidade);
-	
+	float area, litros_necessarios, preco_total;
+	int latas_necessarias;
+
+	printf("Digite o tamanho da area a ser pintada em metros quadrados: ");
+	scanf("%f", &area);
+
+	litros_necessarios = area / 3.0f;
+	latas_necessarias = (int)ceilf(litros_necessarios / 18.0f);
+	preco_total = latas_necessarias * 80.0f;
+
+	printf("Quantidade de latas de tinta a serem compradas: %d\n", latas_necessarias);
+	printf("Preco total: R$ %.2f\n", preco_total);
+
 	return 0;
 }

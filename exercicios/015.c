@@ -49,7 +49,7 @@ int main() {
 	
 	salario_liquido = calcula_salario_liquido(salario_bruto, IR, inss, sindicato);
 	
-	printf("+ Salário Bruto : R$%.2f\n- IR (11%) : R$%.2f\n- INSS (8%) : R$%.2f\n- Sindicato ( 5%) : R$%.2f\n= Salário Liquido : R$%.2f\n", salario_bruto, IR, inss, sindicato, salario_liquido);
+	printf("+ Salário Bruto : R$%.2f\n- IR (11%%) : R$%.2f\n- INSS (8%%) : R$%.2f\n- Sindicato ( 5%%) : R$%.2f\n= Salário Liquido : R$%.2f\n", salario_bruto, IR, inss, sindicato, salario_liquido);
 
     return 0;
 }

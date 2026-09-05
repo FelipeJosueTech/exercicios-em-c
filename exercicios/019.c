@@ -1,0 +1,8 @@
+/* Enunciado: leia dois numeros e imprima o maior deles. */
+#include <stdio.h>
+int main(void)       {
+    double a, b;
+    scanf("%lf %lf", &a, &b);
+    printf("Maior: %.2f\n", a > b ? a : b);
+    return 0;
+}
